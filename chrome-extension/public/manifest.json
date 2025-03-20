@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Program Checker",
+  "version": "1.0",
+  "description": "Check Install State In Local",
+  "permission": ["nativeMessaging"],
+  "host_permissions": ["http://localhost/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
